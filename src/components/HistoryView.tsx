@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Trash2, ChevronLeft, ChevronRight, Lock } from 'lucide-react';
 import { fetchHistory, deleteExplanation } from '@/lib/api';
-import { useAuth } from '@/lib/auth';
+import { useAuth } from '@/lib/useAuth';
 import type { Explanation } from '@/types';
 import { ConfidenceIndicator } from './ConfidenceIndicator';
 import { JargonGlossary } from './JargonGlossary';

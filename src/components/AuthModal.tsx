@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, Loader2, AlertCircle } from 'lucide-react';
-import { useAuth } from '@/lib/auth';
+import { useAuth } from '@/lib/useAuth';
 
 interface AuthModalProps {
   open: boolean;

@@ -7,7 +7,7 @@ import { ConfidenceIndicator } from './ConfidenceIndicator';
 import { MedicalDisclaimer } from './MedicalDisclaimer';
 import { ImageUpload } from './ImageUpload';
 import { explainMedicalText, saveExplanation, submitFeedback } from '@/lib/api';
-import { useAuth } from '@/lib/auth';
+import { useAuth } from '@/lib/useAuth';
 import { SUPPORTED_LANGUAGES } from '@/types';
 import type { ExplanationResult } from '@/types';
 

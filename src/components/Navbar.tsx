@@ -1,5 +1,5 @@
 import { HeartPulse, LogOut } from 'lucide-react';
-import { useAuth } from '@/lib/auth';
+import { useAuth } from '@/lib/useAuth';
 
 interface NavbarProps {
   currentView: 'home' | 'translate' | 'history';
